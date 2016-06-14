@@ -1,6 +1,16 @@
 h1{
   color:red;
+  text-align:center;
+  font-family:Courier;
+  font-size:45px;
 }
-p{
+ul{
+  color:blue;
+  font-family:Courier;
+  font-size:30px;
+
+}
+ul p{
   color:green;
+  font-size:15px;
 }

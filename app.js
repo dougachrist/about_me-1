@@ -15,3 +15,9 @@ if (answer2 === 'yes' || answer2 === 'y') {
 } else{
   alert('Wrong, ella hablas Espanol.');
 }
+var answer3 = prompt('Can she read people\'s mind?').toLowerCase();
+if (answer3 === 'yes' || answer3 === 'y') {
+  alert('Nehhh... She studies pscyhology but she has no idea what you are thinking about.');
+} else{
+  alert('True, but she would want to know how to do that.');
+}
