@@ -1,16 +1,37 @@
 h1{
-  color:red;
+  color:black;
   text-align:center;
-  font-family:Courier;
+  font-family: 'Londrina Shadow', cursive;
   font-size:45px;
+  margin-top:0;
 }
 ul{
-  color:blue;
-  font-family:Courier;
-  font-size:30px;
+  font-family: 'ER Bukinist',fantasy;
+  text-align: left;
+  font-size: 28px;
+  color: white;
+  margin: auto;
+
 
 }
 ul p{
   color:green;
   font-size:15px;
+  margin:auto;
+}
+img{
+  border-color:black;
+  border:2px solid;
+  border-radius:25px;
+  margin-left:14cm;
+
+}
+body{
+  background: url("http://i.imgur.com/FbdwZw5.jpg");
+  background-size:cover;
+  background-position:center;
+
+}
+b{
+  font-weight:bold;
 }
