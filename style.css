@@ -15,7 +15,7 @@ ul{
 
 }
 ul p{
-  color:green;
+  color:000;
   font-size:15px;
   margin:auto;
 }
@@ -31,7 +31,4 @@ body{
   background-size:cover;
   background-position:center;
 
-}
-b{
-  font-weight:bold;
 }
