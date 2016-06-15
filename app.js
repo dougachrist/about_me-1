@@ -33,3 +33,29 @@ if (answer5 === 'yes' || answer3 === 'y') {
 } else{
   alert('Wrong! She has a sister that is 4 years older than her.');
 }
+
+var answer6 = parseInt(prompt('What is her lucky number?'));
+var i = 0;
+while (answer6 !== 6 && i < 4){
+  if (answer6 < 6){
+    alert ('Too low!');
+  }
+else if (answer6 > 6){
+    alert('Too high!');
+}
+  i++;
+  answer6 = parseInt(prompt('What is her lucky number?'));
+}
+if (i >= 4 ){
+  alert('Too many tries.');
+
+}
+if (answer6 === 6){
+  alert('Good guess!');
+}
+var possibleAns = ['Palm Springs','Las Vegas','Tijuana','Zoo','Home','Santa Monica','Cancun','Disneyland','Universal Studios'];
+var answer7 = parseInt(prompt('Where did she celebrate her 22nd birthday?'));
+var i = 0;
+while (answer7 !== possibleAns[2] && i < 6){
+  if
+  
