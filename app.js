@@ -40,9 +40,9 @@ while (answer6 !== 6 && i < 4){
   if (answer6 < 6){
     alert ('Too low!');
   }
-else if (answer6 > 6){
+  else if (answer6 > 6){
     alert('Too high!');
-}
+  }
   i++;
   answer6 = parseInt(prompt('What is her lucky number?'));
 }
@@ -54,8 +54,18 @@ if (answer6 === 6){
   alert('Good guess!');
 }
 var possibleAns = ['Palm Springs','Las Vegas','Tijuana','Zoo','Home','Santa Monica','Cancun','Disneyland','Universal Studios'];
-var answer7 = parseInt(prompt('Where did she celebrate her 22nd birthday?'));
 var i = 0;
-while (answer7 !== possibleAns[2] && i < 6){
-  if
-  
+while (i < 6){
+  var answer7 = prompt('Where did she celebrate her 22nd birthday?');
+  for (var j = 0; j < possibleAns.length; j++){
+    if (answer7 === possibleAns[j]) {
+      alert('Thats right!');
+      var i = 10;
+      break;
+    }
+  }
+  i++;
+  if (i >= 6){
+    alert('You have no more tries');
+  }
+}
