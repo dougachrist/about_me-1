@@ -68,4 +68,23 @@ while (i < 6){
   if (i >= 6){
     alert('You have no more tries');
   }
+var correctAns = 0;
+var i = 0;
+for (i=0; i <= 7; i++ ){
+  if (answer1.toLowerCase === 'yes' || answer1 === 'y') {
+    correctAns = correctAns + 1;}
+  if (answer2.toLowerCase === 'yes' || answer1 === 'y') {
+    correctAns = correctAns + 1;}
+  if (answer3.toLowerCase === 'yes' || answer1 === 'y') {
+      correctAns = correctAns + 1;}
+  if (answer4.toLowerCase === 'yes' || answer1 === 'y') {
+      correctAns = correctAns + 1;}
+  if (answer5.toLowerCase === 'yes' || answer1 === 'y') {
+      correctAns = correctAns + 1;}
+  if (answer6 === 6){
+      correctAns = correctAns + 1;}
+  if (answer7 === possibleAns[j]) {
+      correctAns = correctAns + 1;}
+      break;
 }
+ msg = 'You got' + correctAns+ 'out of 7 questions correct'+ userName+ '! Better luck next time!';
