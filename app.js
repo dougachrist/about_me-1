@@ -86,5 +86,6 @@ for (i=0; i <= 7; i++ ){
   if (answer7 === possibleAns[j]) {
       correctAns = correctAns + 1;}
       break;
+i++;
 }
  msg = 'You got' + correctAns+ 'out of 7 questions correct'+ userName+ '! Better luck next time!';
